@@ -2,11 +2,11 @@
 flowchart LR
     USER["User"] --> HOST["Terminal or Editor"]
 
-    HOST --> PS{"PowerShell Version"}
+    HOST --> PS{"PowerShell<br/>Version"}
     PS --> WPS["Windows PowerShell<br/>powershell.exe"]
     PS --> PSC["PowerShell 7+<br/>pwsh"]
 
-    WPS --> ENGINE["PowerShell Engine"]
+    WPS --> ENGINE["PowerShell<br/>Engine"]
     PSC --> ENGINE
 
     ENGINE --> PARSE["Parse Command<br/>and Build AST"]
@@ -24,8 +24,8 @@ flowchart LR
     SCRIPT --> EXECUTE
     NATIVE --> EXECUTE
 
-    EXECUTE --> PIPELINE["Object Pipeline"]
-    PIPELINE --> OBJECT["Objects with<br/>Properties and Methods"]
+    EXECUTE --> PIPELINE["Object<br/>Pipeline"]
+    PIPELINE --> OBJECT["Objects with<br/>Properties<br/>and<br/>Methods"]
 
     OBJECT --> FORMAT["Format Output"]
     OBJECT --> EXPORT["Export Data"]
@@ -41,10 +41,10 @@ flowchart LR
     OS --> LINUX["Linux"]
     OS --> MACOS["macOS"]
 
-    EXECUTE --> REMOTE["PowerShell Remoting"]
+    EXECUTE --> REMOTE["PowerShell<br/>Remoting"]
     REMOTE --> WINRM["WinRM"]
     REMOTE --> SSH["SSH"]
-    WINRM --> TARGET["Remote System"]
+    WINRM --> TARGET["Remote<br/>System"]
     SSH --> TARGET
 
     classDef user fill:#172554,color:#ffffff,stroke:#1e3a8a,stroke-width:3px
