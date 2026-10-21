@@ -62,6 +62,10 @@ flowchart LR
 
 # Awesome [Malicious](https://github.com/cybersecurity-dev/awesome-fileless-malware-scientific-research) [`Powershell`](https://github.com/cybersecurity-dev/awesome-powershell-scripting-language) [Script](https://github.com/cybersecurity-dev/awesome-powershell-scripting-resources) Detection Scientific Research [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)]()
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)]()
+[![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)]()
+
 <p align="center">
     <a href="https://github.com/cybersecurity-dev/"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/github.svg" alt="GitHub"></a>
     &nbsp;
@@ -127,5 +131,8 @@ You can access the my other awesome lists [here](https://cyberthreatdefence.com/
 
 ### Contributors
 [Thanks goes to these contributors](https://github.com/cybersecurity-dev/Awesome-Malicious-Powershell-Script-Detection-Scientific-Research/graphs/contributors)!
+
+### License
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](http://creativecommons.org/publicdomain/zero/1.0)
 
 [🔼 Back to top](#awesome-malicious-powershell-script-detection-scientific-research-)
